@@ -8,7 +8,7 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <ChakraProvider value={defaultSystem}>
-      <ColorModeProvider defaultTheme="dark">
+      <ColorModeProvider defaultTheme="light">
         <App />
       </ColorModeProvider>
     </ChakraProvider>
